@@ -1,0 +1,54 @@
+.button{
+    background-color: #7b61ff;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    border-color: none;
+    color: #ffff;
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover{
+    background-color: #6344ff;
+}
+
+.button--huge{
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 500;
+
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.button--search{
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.button--subscribe{
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+    margin-left: 16px;
+}
+
+.button-more{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 44px;
+    border-radius: 12px;
+    background: #f6f4ff;
+    text-decoration: none;
+    padding: 10px;
+    color: #5243c2;
+}
+
+.button-more:hover{
+    background: #5243c2;
+    color: white;
+}
